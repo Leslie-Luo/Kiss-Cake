@@ -4,8 +4,8 @@ export function getServer(port) {
   if (url == "localhost:8080") {
     server = 'http://127.0.0.1/Graduation/Server/';
   }
-  else (url == "localhost") {
-    server = '../Server/';
+  else {
+    server = './../Server/';
   }
   return server;
 }
