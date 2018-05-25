@@ -4,10 +4,7 @@ export function getServer(port) {
   if (url == "localhost:8080") {
     server = 'http://127.0.0.1/Graduation/Server/';
   }
-  if (url == "localhost") {
-    server = './Server/';
-  }
-  if (url == "lab.dktoo.cc") {
+  else {
     server = './Server/';
   }
   return server;
